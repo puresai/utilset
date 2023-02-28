@@ -1,0 +1,30 @@
+from setuptools import setup
+from os import path
+
+print(path.abspath(path.dirname(__file__)))
+with open(
+        path.join(path.abspath(path.dirname(__file__)), 'README.md'),
+        encoding='utf-8') as f:
+    long_description = f.read()
+
+setup(
+    name='utilset',
+    version='0.0.1',
+    author='13sai',
+    author_email='sai210728@gmail.com	',
+    url='https://github.com/13sai/utilset',
+    description="util set",
+    long_description=long_description,
+    packages=['utilset'],
+    install_requires=[],
+    platforms=["all"],
+    classifiers=[
+        'Intended Audience :: Developers', 'Operating System :: OS Independent',
+        'Natural Language :: Chinese (Simplified)',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Topic :: Software Development :: Libraries'
+    ],
+)
