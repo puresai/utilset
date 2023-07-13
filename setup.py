@@ -9,11 +9,12 @@ with open(
 
 setup(
     name='utilset',
-    version='0.0.1',
+    version='0.0.2',
     author='13sai',
     author_email='sai210728@gmail.com	',
     url='https://github.com/13sai/utilset',
     description="util set",
+    long_description_content_type="text/markdown",
     long_description=long_description,
     packages=['utilset'],
     install_requires=[],
