@@ -1,7 +1,6 @@
 # utilset
 
 ```sh
-mkdir -p src/utilset
 mkdir tests
 touch setup.py
 ```
@@ -12,6 +11,10 @@ deploy
 ```
 pip3 install build
 pip3 install twine
+pip3 install setuptools wheel
+
+python3 setup.py  check
+
 python3 -m build
 ```
 

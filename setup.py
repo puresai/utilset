@@ -9,7 +9,7 @@ with open(
 
 setup(
     name='utilset',
-    version='0.0.2',
+    version='0.0.3',
     author='13sai',
     author_email='sai210728@gmail.com	',
     url='https://github.com/13sai/utilset',
