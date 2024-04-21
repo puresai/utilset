@@ -10,3 +10,10 @@ def get(l :list, index, default = ''):
         return l[index]
     else:
         return default
+    
+def fill(l: list, len, default = ''):
+    newL = []
+    for i in range(len):
+        newL.append(get(l, i, default))
+
+    return newL

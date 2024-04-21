@@ -8,3 +8,6 @@ def concat(*args: str) -> str:
 
 def md5(text: str):
     return hashlib.md5(text.encode()).hexdigest()
+
+def is_empty(str):
+    return str is None or str == ''
