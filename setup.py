@@ -9,9 +9,9 @@ with open(
 
 setup(
     name='utilset',
-    version='0.0.4',
+    version='0.0.5',
     author='puresai',
-    author_email='sai210728@gmail.com	',
+    author_email='sai210728@gmail.com',
     url='https://github.com/puresai/utilset',
     description="util sets",
     long_description_content_type="text/markdown",
@@ -21,8 +21,7 @@ setup(
     platforms=["all"],
     classifiers=[
         'Intended Audience :: Developers', 'Operating System :: OS Independent',
-        'Natural Language :: Chinese (Simplified)',
-        'Programming Language :: Python :: 3.5',
+        'Natural Language :: English', 'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
