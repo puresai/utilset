@@ -16,4 +16,4 @@ print(string.concat("a", "b", "c"))
 
 ### more samples
 
-[https://github.com/puresai/utilset/tree/master/tests](https://github.com/puresai/utilset/tree/master/tests)
+[https://github.com/thissai/utilset/tree/master/tests](https://github.com/thissai/utilset/tree/master/tests)
